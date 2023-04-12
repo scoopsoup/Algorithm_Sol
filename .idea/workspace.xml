@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6fcafd5-8bcf-479a-b84d-cdda01a2389b" name="Changes" comment="add file via upload" />
+    <list default="true" id="d6fcafd5-8bcf-479a-b84d-cdda01a2389b" name="Changes" comment="feat : 문자열 배열로 변환 후 반환하기">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681300459911</updated>
-      <workItem from="1681300461371" duration="1393000" />
+      <workItem from="1681300461371" duration="5727000" />
     </task>
     <task id="LOCAL-00001" summary="add file via upload">
       <created>1681301048807</created>
@@ -82,7 +84,70 @@
       <option name="project" value="LOCAL" />
       <updated>1681301850342</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit comments">
+      <created>1681302015955</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681302015955</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat : 좌표만들기">
+      <created>1681302084580</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681302084580</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat : 두 직선의 교점 만들기">
+      <created>1681302652063</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681302652063</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat : 교점의 최대, 최소 구하기">
+      <created>1681303344707</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681303344707</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat : 모든 직선반복 후 교점구하기">
+      <created>1681304853957</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681304853957</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat : 좌표의 크기 구하기">
+      <created>1681305035779</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681305035779</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat : 좌표만들기(초기화)">
+      <created>1681305301457</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681305301457</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat : 좌표에 점찍기">
+      <created>1681306019360</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681306019360</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat : 문자열 배열로 변환 후 반환하기">
+      <created>1681306233879</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681306233879</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +166,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add file via upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="add file via upload" />
+    <MESSAGE value="commit comments" />
+    <MESSAGE value="feat : 좌표만들기" />
+    <MESSAGE value="feat : 두 직선의 교점 만들기" />
+    <MESSAGE value="feat : 교점의 최대, 최소 구하기" />
+    <MESSAGE value="feat : 모든 직선반복 후 교점구하기" />
+    <MESSAGE value="feat : 좌표의 크기 구하기" />
+    <MESSAGE value="feat : 좌표만들기(초기화)" />
+    <MESSAGE value="feat : 좌표에 점찍기" />
+    <MESSAGE value="feat : 문자열 배열로 변환 후 반환하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 문자열 배열로 변환 후 반환하기" />
   </component>
 </project>
