@@ -86,6 +86,12 @@ public class Num87377 {// 87377_교점에 별 만들기
             Arrays.fill(row, '.');
         }
 
+        // 좌표에 점찍기
+        for (Point point : points) {
+            int x = (int)(point.x - minPoint.x);
+            int y = (int)(maxPoint.y - point.y);
+            arr[y][x] = '*';
+        }
     }
 
     public static void main(String args[]) {
