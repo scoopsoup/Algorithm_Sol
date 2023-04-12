@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Num87377 {// 87377_교점에 별 만들기
@@ -51,6 +52,23 @@ public class Num87377 {// 87377_교점에 별 만들기
         }
 
         return new Point(x, y);
+    }
+
+    public String[] solution_87377(int[][] line) {
+        // 교점을 저장하는 List
+        List<Point> points = new ArrayList<>();
+        // 모든 직선반복
+        for (int i = 0; i < line.length; i++) {
+            for (int j = i + 1; j < line.length; j++) {
+                // 교점구하기
+                Point intersection = intersection(line[i][0], line[i][1], line[i][2],
+                        line[j][0], line[j][1], line[j][2]);
+
+                if (intersection != null) {
+                    points.add(intersection);
+                }
+            }
+        }
     }
 
     public static void main(String args[]) {
