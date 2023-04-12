@@ -1,1 +1,1 @@
-# CodingTest_Programmers
+# Algorithm
