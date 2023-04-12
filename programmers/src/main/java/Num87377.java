@@ -69,6 +69,14 @@ public class Num87377 {// 87377_교점에 별 만들기
                 }
             }
         }
+
+        // 교점의 최소/최대값
+        Point minPoint = getMinimumPoint(points);
+        Point maxPoint = getMaximumPoint(points);
+
+        // 좌표의 크기 구하기
+        int width = (int) (maxPoint.x - minPoint.x + 1);
+        int height = (int) (maxPoint.y - maxPoint.y + 1);
     }
 
     public static void main(String args[]) {
