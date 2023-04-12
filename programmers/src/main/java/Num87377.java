@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Num87377 {// 87377_교점에 별 만들기
@@ -77,6 +78,14 @@ public class Num87377 {// 87377_교점에 별 만들기
         // 좌표의 크기 구하기
         int width = (int) (maxPoint.x - minPoint.x + 1);
         int height = (int) (maxPoint.y - maxPoint.y + 1);
+
+        // 좌표만들기
+        char[][] arr = new char[height][width];
+        // 좌표 초기화
+        for (char[] row : arr) {
+            Arrays.fill(row, '.');
+        }
+
     }
 
     public static void main(String args[]) {
