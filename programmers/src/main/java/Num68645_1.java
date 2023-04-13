@@ -71,6 +71,15 @@ public class Num68645_1 { // 68645_삼각달팽이_sol1(이중반복문이용)
             // 아래로 이동하려면 y값 증가
             y += 1;
         }
+
+        int[] result = new int[temp - 1];
+        int index = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i; j++) {
+                result[index++] = triangle[i][j];
+            }
+        }
+        return result;
     }
 
     public static void main(String args[]) {
