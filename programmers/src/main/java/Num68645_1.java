@@ -8,8 +8,31 @@ public class Num68645_1 { // 68645_삼각달팽이_sol1(이중반복문이용)
         int temp = 1;
         // 현재 삼각형(배열)의 위치
         // 제일 처음 위치는 (0,0)으로 설정
-        int x, y = 0;
+        int x = 0;
+        int y = 0;
 
+        // 삼각형이 다 채워질때까지 반복
+        while (true) {
+            // 아래로이동
+            while (true) {
+                // 배열에 값 넣기 -> 값 증가
+                triangle[y][x] = temp++;
+                // 더이상 이동할 공간이 없다면 break
+                // 1. 배열의 끝을 만난경우
+                // 2. 다음 공간에 0이 아닌 다른값이 있는경우 -> 이미 채워진 공간
+                if (y + 1 == n || triangle[y + 1][x] != 0) {
+                    break;
+                }
+                y += 1;
+            }
+            // 오른쪽으로 이동할 공간이 없는경우 -> 다 채워졌다! -> 더이상 반복문을 진행시킬 필요 없음
+            if (x + 1 == n || triangle[y][x + 1] != 0) {
+                break;
+            }
+            // 오른쪽이동
+
+            // 왼쪽위로이동
+        }
     }
 
     public static void main(String args[]) {
